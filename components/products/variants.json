@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_products_variants",
+  "info": {
+    "name": "variants",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "integer"
+    },
+    "sale_price": {
+      "type": "integer"
+    },
+    "color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "products.color"
+    },
+    "size": {
+      "type": "component",
+      "repeatable": false,
+      "component": "products.size"
+    }
+  }
+}
